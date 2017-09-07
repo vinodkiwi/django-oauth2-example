@@ -10,4 +10,4 @@ class Person(models.Model):
 	is_active= models.BooleanField(default= True)
 
 	def __str__(self):
-		return self.user.first_name
+		return self.user.first_name	
